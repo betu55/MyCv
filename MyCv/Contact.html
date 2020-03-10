@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="Assets/Images/Screenshot (62).png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bemenet S.</title>
-    <link href="/media/examples/link-element-example.css" rel="stylesheet">
 </head>
 <body>
-    <hr>
+    <hr size="5%">
     <a href="index.html">Home</a> ||
     <a href="contact.html" target="_blank">Contact</a> ||
-    <hr>
+    <a href="Gallery.html" target = "_blank">Gallery</a>
+    <hr size="5%">
     <!-- This is the begining -->
     <Table>
         <tr>
-            <td><img src="Assets/Screenshot (62).png" alt="This is one of the best websites" width="100%" height="65%"></td>
+            <td><img src="Assets/Images/Screenshot (62).png" alt="This is one of the best websites" width="100%" height="65%"></td>
             <td><h1>Bemenet Semegnew</h1>
                 <h3>Student, Addis Ababa University</h3>
     <pre>I am an AAiT Student currently learning under the Software Engineering department.
@@ -29,66 +30,76 @@
 <hr>
 
 <h3>Contact us...</h3>
+<table>
+    <tr>
+    <td>
+    <table padding="35">
+        <form action="mailto:bsemegnew@gmail.com" enctype="UTF-8" method="POST">
+            <tr>
+                <td><label for="12345">FirstName:</label></td>
+                <td><input pattern="[A-Z]" id="12345" name="FName"><br></td>    
+            </tr>
 
-<table padding="35">
-    <form action="mailto:bsemegnew@gmail.com" enctype="UTF-8" method="POST">
-        <tr>
-            <td><label for="12345">FirstName:</label></td>
-            <td><input type="text" id="12345" name="FName"><br></td>    
-        </tr>
+            <tr>
+                <td><label for="15">LastName:</label></td>
+                <td><input pattern="[A-Z]" id="15" name="LName"><br></td>
+            </tr>
+            <tr>
+                <td><label for="155">date of Birth:</label></td>
+                <td><input type="date" id="155" name="age"><br></td>
+            </tr>
+            <tr>
+                <td><label for="515">sex:</label></td>
+                <td><input pattern="[M/F/m/f]" id="515" name="sex"><br></td>
+            </tr>
+            <tr>
+                <td><label for="23">email:</label></td>
+                <td><input pattern="[A-Z]{@gmail.com}" id="23" name="email"><br></td>
+            </tr>
+            <tr>
+                <td><label for="2323">Phone No:</label></td>
+                <td><input type="number" id="2323" name="phone"><br></td>
+            </tr>
+            
+            
+            <tr>
+                <td><label for="select">Where are you from:</label></td>
+                <td>
+                <select name="Country" id="select">
+                <option value="et">Ethiopia</option>
+                <option value="es">Estonia</option>
+                <option value="ca">Cameroon</option>
+                <option value="gh">Ghana</option>
+                <option value="mo">Morocco</option>
+                </select><br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label for="123">password:</label></td>
+                <td><input type="password" id="123" name="passcode"><br></td>
+            </tr>
+            
+            <tr>
+                <td><label for="212">What do you want to say</label><br></td>
+            </tr>
+            <tr>
+                <td><textarea name="" id="212" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+            
+        </form>
 
-        <tr>
-            <td><label for="15">LastName:</label></td>
-            <td><input pattern="" id="15" name="LName"><br></td>
-        </tr>
-        <tr>
-            <td><label for="155">age:</label></td>
-            <td><input type="number" id="155" name="age"><br></td>
-        </tr>
-        <tr>
-            <td><label for="515">sex:</label></td>
-            <td><input type="text" id="515" name="sex"><br></td>
-        </tr>
-        <tr>
-            <td><label for="23">email:</label></td>
-            <td><input type="email" id="23" name="email"><br></td>
-        </tr>
-        <tr>
-            <td><label for="2323">Phone No:</label></td>
-            <td><input type="number" id="2323" name="phone"><br></td>
-        </tr>
-        
-        
-        <tr>
-            <td><label for="select">Where are you from:</label></td>
-            <td>
-            <select name="Country" id="select">
-            <option value="et">Ethiopia</option>
-            <option value="es">Estonia</option>
-            <option value="ca">Cameroon</option>
-            <option value="gh">Ghana</option>
-            <option value="mo">Morocco</option>
-            </select><br>
-            </td>
-        </tr>
-        
-        <tr>
-            <td><label for="123">password:</label></td>
-            <td><input type="password" id="123" name="passcode"><br></td>
-        </tr>
-        
-        <tr>
-            <td><label for="212">What do you want to say</label><br></td>
-        </tr>
-        <tr>
-            <td><textarea name="" id="212" cols="30" rows="10"></textarea></td>
-        </tr>
-        <tr>
-            <td><input type="submit" value="Submit"></td>
-        </tr>
-        
-    </form>
-
+    </table>
+    
+    </td>
+    <td>
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Wesen%20grocery&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a>
+    </td>
+</tr>
+    
 </table>
     
 <hr>
