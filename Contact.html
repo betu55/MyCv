@@ -1,74 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--<link rel="stylesheet" href="Assets/CSS/style.css">-->
     <link rel="icon" href="Assets/Images/Screenshot (62).png">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bemenet S.</title>
+    <!-- <style>
+        body{
+            background-image: url("Assets/Images/BigFruit.png");
+            
+        }
+    </style>-->
 </head>
 <body>
-    <hr size="5%">
+    <div id="topLeft">
     <a href="index.html">Home</a> ||
     <a href="contact.html" target="_blank">Contact</a> ||
-    <a href="Gallery.html" target = "_blank">Gallery</a>
-    <hr size="5%">
+    <a href="Gallery.html" target = "_blank">Gallery</a> ||
+    <a href="blog.html" target="_blank">Blog</a>
+    </div>>
     <!-- This is the begining -->
-    <Table>
-        <tr>
-            <td><img src="Assets/Images/BigFruit.png" alt="profile" width="55%" height="50%"></td>
-            <td><h1>Bemenet Semegnew</h1>
-                <h3>Student, Addis Ababa University</h3>
-    <p>I am an AAiT Student currently learning under the Software Engineering department.
-I am an intermediate programmer that has a basic idea about 
-<strong>Java and Python.</strong> 
-            </p>
-            </td>
-        </tr>
-    </Table>
     
-
-<hr>
-
-<h3>Contact us...</h3>
-<table cellspacing = "60">
-    <tr>
-    <td>
-    <table padding="35">
-        <form action="mailto:bsemegnew@gmail.com" enctype="UTF-8" method="POST">
-            <tr>
-                <td><label for="12345">FirstName:</label></td>
-                <td><input pattern="[A-Z]" id="12345" name="FName"><br></td>    
-            </tr>
-
-            <tr>
-                <td><label for="15">LastName:</label></td>
-                <td><input pattern="[A-Z]" id="15" name="LName"><br></td>
-            </tr>
-            <tr>
-                <td><label for="155">date of Birth:</label></td>
-                <td><input type="date" id="155" name="age"><br></td>
-            </tr>
-            <tr>
-                <td><label for="515">sex:</label></td>
-                <td><input pattern="[M/F/m/f]" id="515" name="sex" placeholder = "M/F"><br></td>
-            </tr>
-            <tr>
-                <td><label for="23">email:</label></td>
-                <td><input pattern="[A-Z]{@gmail.com}" id="23" name="email"><br></td>
-            </tr>
-            <tr>
-                <td><label for="2343">Password:</label></td>
-                <td><input pattern="[A-Z]&{a-z}" id="2343" name="password" placeholder="passcode"><br></td>
-            </tr>
-            <tr>
-                <td><label for="2323">Phone No:</label></td>
-                <td><input type="number" id="2323" name="phone"><br></td>
-            </tr>
+    <img id="profile" src="Assets/Images/BigFruit.png" alt="profile picture">
+    
+    <div id="divC">
+        <h1>Bemenet Semegnew</h1>
+        <h3>Student, Addis Ababa University</h3>
+        <p>I am an AAiT Student currently learning under the Software Engineering department. <br>
+        I am an intermediate programmer that has a basic idea about 
+        <strong>Java and Python.</strong> 
+        </p>
+    </div>
+    
+<div id="div1">
+        <form id="form1" action="mailto:bsemegnew@gmail.com" enctype="UTF-8" method="POST">
             
+            <label for="12345">FirstName:</label>
+            <input pattern="[A-Z]" id="12345" name="FName"><br>
+
             
-            <tr>
-                <td><label for="select">Where are you from:</label></td>
-                <td>
+            <label for="15">LastName:</label>
+            <input pattern="[A-Z]" id="15" name="LName"><br>
+            
+            <label for="155">date of Birth:</label>
+            <input type="date" id="155" name="age"><br>
+            
+            <label for="515">sex:</label>
+            <input pattern="[M/F/m/f]" id="515" name="sex" placeholder = "M/F"><br>
+
+            <label for="23">email:</label>
+            <input pattern="[A-Z]{@gmail.com}" id="23" name="email"><br>
+            
+            <label for="2343">Password:</label>
+            <input pattern="[A-Z]&{a-z}" id="2343" name="password" placeholder="passcode"><br>
+            
+            <label for="2323">Phone No:</label>
+            <input type="number" id="2323" name="phone"><br>
+            
+            <label for="select">Where are you from:</label>
+            
                 <select name="Country" id="select">
                 <option value="et">Ethiopia</option>
                 <option value="es">Estonia</option>
@@ -76,41 +68,30 @@ I am an intermediate programmer that has a basic idea about
                 <option value="gh">Ghana</option>
                 <option value="mo">Morocco</option>
                 </select><br>
-                </td>
-            </tr>
+                
+            <label for="123">password:</label>
+            <input type="password" id="123" name="passcode"><br>
             
-            <tr>
-                <td><label for="123">password:</label></td>
-                <td><input type="password" id="123" name="passcode"><br></td>
-            </tr>
-            
-            <tr>
-                <td><label for="212">What do you want to say</label><br></td>
-            </tr>
-            <tr>
-                <td><textarea name="" id="212" cols="30" rows="10"></textarea></td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="Submit"></td>
-            </tr>
+            <label for="212">What do you want to say</label><br>
+
+            <textarea name="" id="212" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Submit">
             
         </form>
 
-    </table>
-    
-    </td>
-    <td>
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Wesen%20grocery&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a>
-    </td>
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Wesen%20grocery&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a></div></div>
+    </div>
 </tr>
     
 </table>
-    
-<hr>
+
+<h3>Contact us...</h3>
+<div id="bottomLeft">
 <a href="https://www.twitter.com" target="_blank">Twitter</a>
 <a href="https://www.youtube.com" target="_blank">Youtube</a>
 <a href="https://www.facebook.com" target="_blank">Facebook</a>
-<hr>
+</div>
 
 </body>
 </html>

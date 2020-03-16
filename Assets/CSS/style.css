@@ -1,0 +1,142 @@
+/*Element selector*/
+/*Class selector*/
+/*ID selector*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*gallery.html*/
+/*======================================================================================================================*/
+.gallery    {
+    background-color: burlywood;
+}
+
+#title{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    width: 255rem;
+    padding-bottom: 1%;
+    border-bottom: solid #233357;
+    border-bottom-width: 100%;
+}
+
+.image1{
+    padding-top: 10px;
+    float: left;
+    size: 30%;
+}
+
+.divider img{
+    width: 30%;
+    margin: 1.3%;
+}
+/*blog.html*/
+/*======================================================================================================================*/
+p{
+    color: black;
+}
+body{
+    background-color: burlywood;
+    margin: 10px auto;
+}
+header{
+    position: fixed;
+    background-color: rgba(255, 174, 0, 0.8);
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    margin-top: 20px;
+}
+article{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+.title{
+    font-size: 23px;
+    font-weight: bold;
+}
+.date{
+    font-style: italic;
+    font-size: 5px;
+    text-transform: uppercase;
+}
+
+nav ul li{
+    padding: 25px;
+    display: inline;
+    font-size: 18px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: burlywood;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+nav ui li a:visited{
+    color: darkred;
+}
+
+body img{
+    width: 20%;
+    height: 20%;
+    border-radius: 25%;
+    float: left;
+}
+
+/*contact.html*/
+/*=====================================================================================================================*/
+#profile{
+    width: 20%;
+    height: 20%;
+    float: left;
+    border-bottom: solid;
+    border-bottom-width: 100%;
+}
+#divC{
+    margin-top: 5%;
+    margin-left: 25%;
+}
+#topLeft{
+    border-bottom: solid;
+    border-bottom-width: 100%;
+    border-top: solid;
+    border-top-width: 100%;
+}
+form{
+    float: left;
+}
+#div1{
+    border-top: solid;
+    border-top-width: 100%;
+    margin-top: 17%;
+    padding-top: 2%;
+}
+.mapouter{
+    margin-left: 40%;
+}
+body div form label{
+    margin-left: 5%;
+    padding-right: 2%;
+}
+body div form textarea{
+    margin-left: 5%;
+    padding-right: 2%;
+}
+
+body div form input{
+    
+}
+#bottomLeft{
+    border-bottom: solid;
+    border-bottom-width: 100%;
+    border-top: solid;
+    border-top-width: 100%;
+}
