@@ -110,8 +110,10 @@ body img{
     border-top: solid;
     border-top-width: 100%;
 }
-form{
+#form1{
+    width: 40%;
     float: left;
+    padding-right: 5%;
 }
 #div1{
     border-top: solid;
@@ -121,22 +123,36 @@ form{
 }
 .mapouter{
     margin-left: 40%;
+    margin-right: 10%;
 }
 body div form label{
-    margin-left: 5%;
-    padding-right: 2%;
+    margin-left: 2%;
+    width: 1%;
 }
 body div form textarea{
-    margin-left: 5%;
+    margin-left: 2%;
     padding-right: 2%;
 }
 
 body div form input{
-    
+    width: 25%;
+    margin-left: 25%;
+    float: right;
+}
+body div form select{
+    width: 26%;
+    height: 1%;
+    margin-left: 25%;
+    float: right;
 }
 #bottomLeft{
     border-bottom: solid;
     border-bottom-width: 100%;
     border-top: solid;
     border-top-width: 100%;
+}
+#submit{
+    margin-left: 2%;
+    width: 15%;
+    float: left;
 }
