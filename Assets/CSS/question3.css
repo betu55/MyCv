@@ -3,11 +3,120 @@
     margin: 0%;
 }
 body{
-    background-color: goldenrod;
+    background-color: burlywood;
 }
 
+
 #belgium{
+    position: fixed;
+    background: yellow;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 5% 80% 0% 5%;
+}
+#belgium1{
+    position: fixed;
+    background: red;
+    padding: 5%;
+    padding-left: 5%;
+    margin: 5% 80% 0% 5%;
+}
+#belgium2{
+    position: fixed;
     background: black;
     padding: 5%;
-    margin: 5%;
+    padding-right: 0%;
+    margin: 5% 80% 0% 5%;
+}
+
+#germany{
+    position: fixed;
+    background: yellow;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 5% 60% 0% 25%;
+}
+#germany1{
+    position: fixed;
+    background: red;
+    padding: 6.6% 15% 0% 0%;
+    margin: 5% 60% 0% 25%;
+}
+
+#germany2{
+    position: fixed;
+    background: black;
+    padding: 0% 15% 3.3% 0%;
+    margin: 5% 60% 0% 25%;
+}
+
+#germany3{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 10% 65% 0% 20%;
+}
+#bulgaria{
+    position: fixed;
+    background: red;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 5% 40% 0% 45%;
+}
+#bulgaria1{
+    position: fixed;
+    background: green;
+    padding: 6.6% 15% 0% 0%;
+    margin: 5% 40% 0% 45%;
+}
+
+#bulgaria2{
+    position: fixed;
+    background: white;
+    padding: 0% 15% 3.3% 0%;
+    margin: 5% 40% 0% 45%;
+}
+
+#cotedivoire{
+    position: fixed;
+    background: white;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 5% 20% 0% 65%;
+}
+#cotedivoire1{
+    position: fixed;
+    background: green;
+    padding: 5%;
+    padding-left: 5%;
+    margin: 5% 20% 0% 65%;
+}
+#cotedivoire2{
+    position: fixed;
+    background: orange;
+    padding: 5%;
+    padding-right: 0%;
+    margin: 5% 20% 0% 65%;
+}
+
+#chad{
+    position: fixed;
+    background: yellow;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 20% 80% 0% 5%;
+}
+#chad1{
+    position: fixed;
+    background: red;
+    padding: 5%;
+    padding-left: 5%;
+    margin: 20% 80% 0% 5%;
+}
+#chad2{
+    position: fixed;
+    background: darkblue;
+    padding: 5%;
+    padding-right: 0%;
+    margin: 20% 80% 0% 5%;
 }
