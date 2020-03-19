@@ -5,27 +5,27 @@
 
 #topleft{
     position: fixed;
-    margin: 20% 70% 0% 25%;
+    margin: 15% 70% 0% 30%;
     padding: 5%;
     border-bottom: solid;
     border-right: solid;
 }
 #topcenter{
     position: fixed;
-    margin: 20% 70% 0% 35%;
+    margin: 15% 70% 0% 40%;
     padding: 5%;
     border-right: solid;
     border-bottom: solid;
 }
 #topright{
     position: fixed;
-    margin: 20% 70% 0% 45%;
+    margin: 15% 70% 0% 50%;
     padding: 5%;
     border-bottom: solid;
 }
 #middleleft{
     position: fixed;
-    margin: 30% 70% 0% 25%;
+    margin: 25% 70% 0% 30%;
     padding: 5%;
     border-right: solid;
     border-top: solid;
@@ -33,7 +33,7 @@
 }
 #middlecenter{
     position: fixed;
-    margin: 30% 70% 0% 35%;
+    margin: 25% 70% 0% 40%;
     padding: 5%;
     border-top: solid;
     border-left: solid;
@@ -41,7 +41,7 @@
 }
 #middleright{
     position: fixed;
-    margin: 30% 70% 0% 45%;
+    margin: 25% 70% 0% 50%;
     padding: 5%;
     border-top: solid;
     border-left: solid;
@@ -49,19 +49,19 @@
 }
 #bottomleft{
     position: fixed;
-    margin: 40% 70% 0% 25%;
+    margin: 35% 70% 0% 30%;
     padding: 5%;
     border-right: solid;
 }
 #bottomcenter{
     position: fixed;
-    margin: 40% 70% 0% 35%;
+    margin: 35% 70% 0% 40%;
     padding: 5%;
     border-left: solid;
 }
 #bottomright{
     position: fixed;
-    margin: 40% 70% 0% 45%;
+    margin: 35% 70% 0% 50%;
     padding: 5%;
     border-left: solid;
 }
