@@ -28,6 +28,13 @@ body{
     padding-right: 0%;
     margin: 5% 80% 0% 5%;
 }
+#belgium3{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 10% 0% 0% 0%;
+}
+
 
 #germany{
     position: fixed;
@@ -56,6 +63,7 @@ body{
     padding-left: 10%;
     margin: 10% 65% 0% 20%;
 }
+
 #bulgaria{
     position: fixed;
     background: red;
@@ -76,6 +84,13 @@ body{
     padding: 0% 15% 3.3% 0%;
     margin: 5% 40% 0% 45%;
 }
+#bulgaria3{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 10% 0% 0% 40%;
+}
+
 
 #cotedivoire{
     position: fixed;
@@ -98,6 +113,13 @@ body{
     padding-right: 0%;
     margin: 5% 20% 0% 65%;
 }
+#cotedivoire3{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 10% 0% 0% 60%;
+}
+
 
 #chad{
     position: fixed;
@@ -119,4 +141,222 @@ body{
     padding: 5%;
     padding-right: 0%;
     margin: 20% 80% 0% 5%;
+}
+
+#chad3{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 25% 0% 0% 0%;
+}
+
+
+#estonia{
+    position: fixed;
+    background: white;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 20% 60% 0% 25%;
+}
+#estonia1{
+    position: fixed;
+    background: black;
+    padding: 6.6% 15% 0% 0%;
+    margin: 20% 60% 0% 25%;
+}
+
+#estonia2{
+    position: fixed;
+    background: darkblue;
+    padding: 0% 15% 3.3% 0%;
+    margin: 20% 60% 0% 25%;
+}
+
+#estonia3{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 25% 0% 0% 20%;
+}
+
+#indonesia{
+    position: fixed;
+    background: white;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 20% 60% 0% 45%;
+}
+#indonesia1{
+    position: fixed;
+    background: red;
+    padding: 5% 15% 0% 0%;
+    margin: 20% 60% 0% 45%;
+}
+
+#indonesia3{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 25% 0% 0% 40%;
+}
+
+
+#nigeria{
+    position: fixed;
+    background: green;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 20% 20% 0% 65%;
+}
+#nigeria1{
+    position: fixed;
+    background: white;
+    padding: 5%;
+    padding-left: 5%;
+    margin: 20% 20% 0% 65%;
+}
+#nigeria2{
+    position: fixed;
+    background: green;
+    padding: 5%;
+    padding-right: 0%;
+    margin: 20% 20% 0% 65%;
+}
+
+#nigeria3{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 25% 0% 0% 60%;
+}
+
+
+#sierraleone{
+    position: fixed;
+    background: steelblue;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 35% 60% 0% 5%;
+}
+#sierraleone1{
+    position: fixed;
+    background: white;
+    padding: 6.6% 15% 0% 0%;
+    margin: 35% 60% 0% 5%;
+}
+
+#sierraleone2{
+    position: fixed;
+    background: green;
+    padding: 0% 15% 3.3% 0%;
+    margin: 35% 60% 0% 5%;
+}
+
+#sierraleone3{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 40% 0% 0% 0%;
+}
+
+
+#gabon{
+    position: fixed;
+    background: darkblue;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 35% 60% 0% 25%;
+}
+#gabon1{
+    position: fixed;
+    background: yellow;
+    padding: 6.6% 15% 0% 0%;
+    margin: 35% 60% 0% 25%;
+}
+
+#gabon2{
+    position: fixed;
+    background: green;
+    padding: 0% 15% 3.3% 0%;
+    margin: 35% 60% 0% 25%;
+}
+
+#gabon3{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 40% 0% 0% 20%;
+}
+
+#gambia{
+    position: fixed;
+    background: green;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 35% 60% 0% 45%;
+}
+#gambia1{
+    position: fixed;
+    background: darkblue;
+    padding: 6.6% 15% 0% 0%;
+    margin: 35% 60% 0% 45%;
+}
+
+#gambia2{
+    position: fixed;
+    background: white;
+    padding: 0% 15% 0.5% 0%;
+    margin: 41.3% 60% 0% 45%;
+}
+
+#gambia3{
+    position: fixed;
+    background: red;
+    padding: 0% 15% 3.3% 0%;
+    margin: 35% 60% 0% 45%;
+}
+
+#gambia4{
+    position: fixed;
+    background: white;
+    padding: 0% 15% 0.5% 0%;
+    margin: 38% 60% 0% 45%;
+}
+
+#gambia5{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 40% 0% 0% 40%;
+}
+
+
+#madagascar{
+    position: fixed;
+    background: white;
+    padding: 5%;
+    padding-right: 5%;
+    margin: 35% 0% 0% 65%;
+}
+
+#madagascar1{
+    position: fixed;
+    background: forestgreen;
+    padding: 5%;
+    padding-right: 0%;
+    padding-left: 10%;
+    margin: 35% 60% 0% 70%;
+}
+#madagascar2{
+    position: fixed;
+    background: red;
+    padding: 5% 10% 0% 0%;
+    margin: 35% 60% 0% 70%;
+}
+
+#madagascar3{
+    position: fixed;
+    padding: 5%;
+    padding-left: 10%;
+    margin: 40% 0% 0% 60%;
 }
