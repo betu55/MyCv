@@ -19,6 +19,7 @@
     padding-bottom: 1%;
     border-bottom: solid #233357;
     border-bottom-width: 100%;
+    margin-top: 3%;
 }
 
 .image1{
@@ -79,6 +80,8 @@ nav ul li:hover{
     background-color: burlywood;
     margin-bottom: 1%;
     margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 0%;
 }
 nav ui li a:visited{
     color: darkred;
@@ -159,6 +162,23 @@ body div form select{
 
 /*index.html*/
 /*=====================================================================================================================*/
+
+#profile{
+    width: 20%;
+    height: 20%;
+    float: left;
+    border-bottom: solid;
+    border-bottom-width: 100%;
+}
+#h3{
+    font-size: 26px;
+    font: fantasy;
+    font: bold;
+}
+#divI{
+    margin-top: 5%;
+    margin-left: 25%;
+}
 #profession{
     font-family: Arial, Helvetica, sans-serif;
     float: left;
@@ -166,14 +186,56 @@ body div form select{
 }
 #date{
     float: left;
-    font-size: 26px;
+    font-size: 22px;
     padding-right: 10%;
 }
 #job{
-    font-size: 26px;
+    font-size: 22px;
 }
 
 #dates{
     float: left;
     padding-right: 5%;
+}
+
+#music{
+    float: left;
+    font-size: 26px;
+    padding-right: 10%;
+}
+#sport{
+    font-size: 26px;
+}
+#sdivs{
+    margin-top: 3%;
+}
+#sdivs2{
+    margin-top: 1%;
+}
+#indexheader{
+    padding: 0%;
+    margin: 0% 0% 0% 0%; 
+    background-color: rgba(255, 174, 0, 0.8);
+    border-top: solid;
+    border-bottom: solid;
+    border-color: black;
+    border-width: 100%;
+}
+#hdivs{
+    padding-top: 1%;
+    padding-bottom: 0%;
+    padding: 25px;
+    display: inline;
+    font-size: 18px;
+}
+#hdivs a{
+    text-decoration: none;
+}
+
+#hdivs:hover{
+    background-color: wheat;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
