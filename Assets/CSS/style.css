@@ -156,3 +156,24 @@ body div form select{
     width: 15%;
     float: left;
 }
+
+/*index.html*/
+/*=====================================================================================================================*/
+#profession{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-right: 3%;
+}
+#date{
+    float: left;
+    font-size: 26px;
+    padding-right: 10%;
+}
+#job{
+    font-size: 26px;
+}
+
+#dates{
+    float: left;
+    padding-right: 5%;
+}
