@@ -239,3 +239,18 @@ body div form select{
     padding-top: 0%;
     padding-bottom: 0%;
 }
+
+/*myworks.html*/
+/*====================================================================================================================*/
+#answers{
+    font-size: 22px;
+    padding: 1%;
+}
+.questions{
+    color: green;
+    font-size: 18px;
+    text-decoration: none;
+}
+#divvv{
+    margin: 5% 45% 0% 35%;
+}
